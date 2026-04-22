@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #a18e8e;
+}
+
+h1 {
+    color: #333;
+}
+
+.form {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background: rgb(4, 46, 4);
+    color: white;
+}
+
+li {
+    list-style: none;
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    margin-left: 5px;
+    background: #555;
+}
+
+.actions button:last-child {
+    background: rgb(235, 53, 53);
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+}
